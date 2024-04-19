@@ -7,6 +7,55 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#exemplo---compra-da-tv",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#exemplo---compra-da-tv",
+    "title": "Probabilidade e Estatística",
+    "section": "Exemplo - Compra da TV",
+    "text": "Exemplo - Compra da TV\n\nSuponha que você queira comprar uma televisão e quer saber qual é a loja que apresenta o melhor preço. O que você faz?\n\nDefine as características da televisão que você deseja;\nVocê inicia sua pesquisa nas lojas anotando os preços dos televisores;\nDepois você compara os preços de cada loja;\nApós comparar os preços, você seleciona aquela loja com melhor preço e se dirige até ela para efetuar a sua compra."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#exemplo---compra-da-tv-continuação",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#exemplo---compra-da-tv-continuação",
+    "title": "Probabilidade e Estatística",
+    "section": "Exemplo - Compra da TV (Continuação)",
+    "text": "Exemplo - Compra da TV (Continuação)\n\nNote que a Estatística estava presente quando você:\n\nDefiniu as características da televisão;\nColetou os dados;\nExtraiu as informações a partir da sua pesquisa;\nTomou decisão baseada nas informações extraídas."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#etimologia",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#etimologia",
+    "title": "Probabilidade e Estatística",
+    "section": "Etimologia",
+    "text": "Etimologia\n\nHistóricamente, a palavra “estatística” tem origem no latim “statisticus”, que significa “relativo ao Estado”;\nSeu uso estava associado à coleta e análise de dados demográficos e econômicos para governos, especialmente para fins de planejamento e tomada de decisões políticas;\nAo longo do tempo, o termo foi adotado em um contexto mais amplo, abrangendo a análise de dados em diversos campos, como ciências naturais, ciências sociais, negócios e muito mais."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#definição",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#definição",
+    "title": "Probabilidade e Estatística",
+    "section": "Definição",
+    "text": "Definição\n\nEstatística\n\nÉ a ciência que fornece os princípios e os métodos para coleta, organização, resumo, análise e interpretação de dados."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#aplicações-gerais",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#aplicações-gerais",
+    "title": "Probabilidade e Estatística",
+    "section": "Aplicações Gerais",
+    "text": "Aplicações Gerais\n\nEconomia: Modelagem econométrica para estudar relações entre variáveis econômicas, como oferta e demanda, inflação e desemprego;\nCiências Ambientais: Estudos para prever mudanças climáticas e seus efeitos;\nMedicina: Testes clínicos para avaliar a eficácia de novos tratamentos;\nBiologia: Estudos de epidemiologia para analisar a propagação de doenças em populações."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#aplicações-na-área-de-computação",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#aplicações-na-área-de-computação",
+    "title": "Probabilidade e Estatística",
+    "section": "Aplicações na Área de Computação",
+    "text": "Aplicações na Área de Computação\n\nAnálisar o Tempo e a ordem de falhas de componentes eletrônicos;\nA quantidade de memória alocada para a execução de determinado programa;\nQuantidade de defeitos em softwares recém lançados;\nQuantidade de arquivos e diretórios afetados por um vírus;\nClassificar se uma mensagem é um Spam."
+  },
+  {
+    "objectID": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#artigos",
+    "href": "Aulas/1-Conceitos_Iniciais/Conceitos_Iniciais.html#artigos",
+    "title": "Probabilidade e Estatística",
+    "section": "Artigos",
+    "text": "Artigos\n\nEm Sullivan and Chillarege (1991) é realizado uma comparação dos defeitos regulares com os defeitos que corrompem a memória do programa;\nEm Galinac Grbac and Huljenić (2015) foi analisada a distribuição de probabilidade das falhas detectadas durante a verificação em quatro versões consecutivas de um sistema de software complexo de grande escala para as centrais de telecomunicações;\nEm Khalid et al. (2023) foi utilizado modelos de Machine Learning para realizar predições de defeitos em software."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Leonardo",

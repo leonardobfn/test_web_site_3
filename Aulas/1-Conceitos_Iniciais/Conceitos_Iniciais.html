@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/tabby.min.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.553">
 
-  <meta name="author" content="asdd">
-  <title>test_web_site_3 - ters</title>
+  <meta name="author" content="Professor: Leonardo Brandão Freitas do Nascimento">
+  <title>test_web_site_3 - Probabilidade e Estatística</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,12 +29,34 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
-  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -326,23 +348,121 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">ters</h1>
+  <h1 class="title">Probabilidade e Estatística</h1>
+  <p class="subtitle">Conceitos Iniciais</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-asdd 
+Professor: Leonardo Brandão Freitas do Nascimento 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            </p><center>
+            Universidade Federal do Amazonas
+            </center>
+            <center>
+            Departamento de Estatística
+            </center>
+          <p></p>
+    </div>
 </div>
 
 </section>
-<section id="aula" class="title-slide slide level1 center">
-<h1>Aula</h1>
+<section>
+<section id="o-que-é-estatística" class="title-slide slide level1 center">
+<h1>O que é Estatística?</h1>
+
+</section>
+<section id="exemplo---compra-da-tv" class="slide level2">
+<h2>Exemplo - Compra da TV</h2>
+<ul>
+<li><p>Suponha que você queira comprar uma televisão e quer saber qual é a loja que apresenta o melhor preço. O que você faz?</p>
+<ul>
+<li><p>Define as características da televisão que você deseja;</p></li>
+<li><p>Você inicia sua pesquisa nas lojas anotando os preços dos televisores;</p></li>
+<li><p>Depois você compara os preços de cada loja;</p></li>
+<li><p>Após comparar os preços, você seleciona aquela loja com melhor preço e se dirige até ela para efetuar a sua compra.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="exemplo---compra-da-tv-continuação" class="slide level2">
+<h2>Exemplo - Compra da TV (Continuação)</h2>
+<ul>
+<li><p>Note que a Estatística estava presente quando você:</p>
+<ul>
+<li><p>Definiu as características da televisão;</p></li>
+<li><p>Coletou os dados;</p></li>
+<li><p>Extraiu as informações a partir da sua pesquisa;</p></li>
+<li><p>Tomou decisão baseada nas informações extraídas.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="etimologia" class="slide level2">
+<h2>Etimologia</h2>
+<ul>
+<li><p>Históricamente, a palavra “estatística” tem origem no latim “statisticus”, que significa “relativo ao Estado”;</p></li>
+<li><p>Seu uso estava associado à coleta e análise de dados demográficos e econômicos para governos, especialmente para fins de planejamento e tomada de decisões políticas;</p></li>
+<li><p>Ao longo do tempo, o termo foi adotado em um contexto mais amplo, abrangendo a análise de dados em diversos campos, como ciências naturais, ciências sociais, negócios e muito mais.</p></li>
+</ul>
+</section>
+<section id="definição" class="slide level2">
+<h2>Definição</h2>
+<dl>
+<dt>Estatística</dt>
+<dd>
+<p>É a ciência que fornece os princípios e os métodos para coleta, organização, resumo, análise e interpretação de dados.</p>
+</dd>
+</dl>
+</section></section>
+<section>
+<section id="aplicações" class="title-slide slide level1 center">
+<h1>Aplicações</h1>
+
+</section>
+<section id="aplicações-gerais" class="slide level2">
+<h2>Aplicações Gerais</h2>
+<ul>
+<li><p><strong>Economia</strong>: Modelagem econométrica para estudar relações entre variáveis econômicas, como oferta e demanda, inflação e desemprego;</p></li>
+<li><p><strong>Ciências Ambientais</strong>: Estudos para prever mudanças climáticas e seus efeitos;</p></li>
+<li><p><strong>Medicina</strong>: Testes clínicos para avaliar a eficácia de novos tratamentos;</p></li>
+<li><p><strong>Biologia</strong>: Estudos de epidemiologia para analisar a propagação de doenças em populações.</p></li>
+</ul>
+</section>
+<section id="aplicações-na-área-de-computação" class="slide level2">
+<h2>Aplicações na Área de Computação</h2>
+<ul>
+<li><p>Análisar o Tempo e a ordem de falhas de componentes eletrônicos;</p></li>
+<li><p>A quantidade de memória alocada para a execução de determinado programa;</p></li>
+<li><p>Quantidade de defeitos em softwares recém lançados;</p></li>
+<li><p>Quantidade de arquivos e diretórios afetados por um vírus;</p></li>
+<li><p>Classificar se uma mensagem é um Spam.</p></li>
+</ul>
+</section>
+<section id="artigos" class="slide level2">
+<h2>Artigos</h2>
+<ul>
+<li><p>Em <span class="citation" data-cites="sullivan">Sullivan and Chillarege (<a href="#/referências" role="doc-biblioref" onclick="">1991</a>)</span> é realizado uma comparação dos defeitos regulares com os defeitos que corrompem a memória do programa;</p></li>
+<li><p>Em <span class="citation" data-cites="galinacgrbac2015">Galinac Grbac and Huljenić (<a href="#/referências" role="doc-biblioref" onclick="">2015</a>)</span> foi analisada a distribuição de probabilidade das falhas detectadas durante a verificação em quatro versões consecutivas de um sistema de software complexo de grande escala para as centrais de telecomunicações;</p></li>
+<li><p>Em <span class="citation" data-cites="khalid2023">Khalid et al. (<a href="#/referências" role="doc-biblioref" onclick="">2023</a>)</span> foi utilizado modelos de Machine Learning para realizar predições de defeitos em software.</p></li>
+</ul>
+</section></section>
+<section id="referências" class="title-slide slide level1 smaller scrollable">
+<h1>Referências</h1>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-galinacgrbac2015" class="csl-entry" role="listitem">
+Galinac Grbac, Tihana, and Darko Huljenić. 2015. <span>“On the Probability Distribution of Faults in Complex Software Systems.”</span> <em>Information and Software Technology</em> 58 (February): 250–58. <a href="https://doi.org/10.1016/j.infsof.2014.06.014">https://doi.org/10.1016/j.infsof.2014.06.014</a>.
+</div>
+<div id="ref-khalid2023" class="csl-entry" role="listitem">
+Khalid, Aimen, Gran Badshah, Nasir Ayub, Muhammad Shiraz, and Mohamed Ghouse. 2023. <span>“Software Defect Prediction Analysis Using Machine Learning Techniques.”</span> <em>Sustainability</em> 15 (6): 5517. <a href="https://doi.org/10.3390/su15065517">https://doi.org/10.3390/su15065517</a>.
+</div>
+<div id="ref-sullivan" class="csl-entry" role="listitem">
+Sullivan, M., and R. Chillarege. 1991. <span>“Software Defects and Their Impact on System Availability-a Study of Field Failures in Operating Systems.”</span> <em>[1991] Digest of Papers. Fault-Tolerant Computing: The Twenty-First International Symposium</em>. <a href="https://doi.org/10.1109/ftcs.1991.146625">https://doi.org/10.1109/ftcs.1991.146625</a>.
 </div>
 </div>
 </section>
@@ -350,19 +470,20 @@ asdd
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -376,7 +497,8 @@ asdd
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -384,10 +506,10 @@ asdd
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: false,
+        controlsTutorial: true,
 
         // Determines where controls appear, "edges" or "bottom-right"
-        controlsLayout: 'edges',
+        controlsLayout: 'bottom-right',
 
         // Visibility rule for backwards navigation arrows; "faded", "hidden"
         // or "visible"
@@ -397,7 +519,7 @@ asdd
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -547,7 +669,7 @@ asdd
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
