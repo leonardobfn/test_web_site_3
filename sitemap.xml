@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://leonardobfn.github.io/test_web_site_3/index.html</loc>
-    <lastmod>2024-04-19T17:05:48.068Z</lastmod>
+    <loc>https://leonardobfn.github.io/test_web_site_3/ters.html</loc>
+    <lastmod>2024-04-19T17:30:53.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leonardobfn.github.io/test_web_site_3/Aulas/ters.html</loc>
+    <lastmod>2024-04-19T17:30:53.680Z</lastmod>
   </url>
   <url>
     <loc>https://leonardobfn.github.io/test_web_site_3/about.html</loc>
     <lastmod>2024-04-19T16:49:34.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leonardobfn.github.io/test_web_site_3/index.html</loc>
+    <lastmod>2024-04-19T17:05:48.068Z</lastmod>
   </url>
 </urlset>
