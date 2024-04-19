@@ -54,12 +54,5 @@
     "title": "Probabilidade e Estatística",
     "section": "Artigos",
     "text": "Artigos\n\nEm Sullivan and Chillarege (1991) é realizado uma comparação dos defeitos regulares com os defeitos que corrompem a memória do programa;\nEm Galinac Grbac and Huljenić (2015) foi analisada a distribuição de probabilidade das falhas detectadas durante a verificação em quatro versões consecutivas de um sistema de software complexo de grande escala para as centrais de telecomunicações;\nEm Khalid et al. (2023) foi utilizado modelos de Machine Learning para realizar predições de defeitos em software."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leonardo",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
